@@ -1,0 +1,38 @@
+[
+  {
+    "select": { "type" : [ "swamp" ] },
+    "apply": {
+      "species" : {
+        "method" : "before",
+        "random" : {
+          "dynamictreestechreborn:rubber" : 1,
+          "..." : 20
+        }
+      }
+    }
+  },
+  {
+    "select": { "type" : [ "forest", "!jungle" ] },
+    "apply": {
+      "species" : {
+        "method" : "before",
+        "random" : {
+          "dynamictreestechreborn:rubber" : 1,
+          "..." : 100
+        }
+      }
+    }
+  },
+  {
+    "select": { "type" : [ "jungle" ] },
+    "apply": {
+      "species" : {
+        "method" : "before",
+        "random" : {
+          "dynamictreestechreborn:rubber" : 1,
+          "..." : 200
+        }
+      }
+    }
+  }
+]
